@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style_compras.css">
+  <link rel="stylesheet" href="/css/cart.css">
+	<script src="./js/helados.js"></script>
+  <script src="./js/cart_services.js" defer></script>
+	<script src="./js/cart.js" defer></script>
+	<title> Carrito</title>
+
+     <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+</head>
+<body>
+
+    
+
+  <header>
+		<nav>
+			<a href="./productos.html"><img src="./img/logo-juan_valdez.png" alt="Logo" id="logo"></a>
+			<div>
+				
+				<a href="./cart.html" id="cart"><img src="./img/iconos/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<p id="carrito-vacio">Ups! El carrito está vacío, <a href="./productos.html">elige algunos productos</a></p>
+		<section id="cart-container">
+		</section>
+  <section id="totales">
+    <p>Total unidades: <span id="cantidad">0</span></p>
+    <p>Total precio: $<span id="precio">0</span></p>
+    <button disabled>Comprar</button>
+    <button id="reiniciar">Reiniciar</button>
+  </section>
+</main>
+<footer>
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px; " id="footer">
+       <div class="container text-center py-5">
+           <div class="row">
+               <div class="col-12 mb-4">
+                   <a href="index.html" class="navbar-brand m-0">
+                       <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary"></span>Cold Pleasure</h1>
+                   </a>
+               </div>
+               <div class="col-12 mb-4">
+                   <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                   <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                   <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                   <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+               </div>
+               <div class="col-12 mt-2 mb-4">
+                   <div class="row">
+                       <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                           <h5 class="font-weight-bold mb-2">Find us</h5>
+                           <p class="mb-2">Barranquilla, Colombia</p>
+                           <p class="mb-0">+57 312 6785790</p>
+                       </div>
+                       <div class="col-sm-6 text-center text-sm-left">
+                           <h5 class="font-weight-bold mb-2">Office hours</h5>
+                           <p class="mb-2">lun – vie, 8AM – 10PM</p>
+                           <p class="mb-2">Sab - Dom,  9AM – 11PM</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-12">
+                   <p class="m-0">&copy; <a href="#">ADSO7</a>. All Rights Reserved. Designed by <a href="">ADSO7</a>
+                   </p>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!-- Footer End -->
+</footer>
+</body>
+</html>
